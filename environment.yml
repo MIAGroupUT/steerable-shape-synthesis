@@ -1,0 +1,40 @@
+name: thyroidsynthesis
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=12.4
+  - matplotlib
+  - jupyterlab
+  - pandas
+  - lightning
+  - scikit-learn
+  - scikit-image
+  - simpleitk
+  - tqdm
+  - wandb
+  - trimesh
+  - rtree
+  - pyvista
+  - pymeshfix
+  - hatchling
+  - pyevtk
+  - scipy
+  - cupy
+  - python-dotenv
+  - shapely
+  - pip
+  - pip:
+    - pysdf
+    - pyacvd
+    - point-cloud-utils
+    - fast-simplification
+    - catppuccin
+    - opencv-python
+    - mapbox-earcut
+    - manifold3d
