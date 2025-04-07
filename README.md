@@ -1,6 +1,8 @@
 # Steerable Anatomical Shape Synthesis with Implicit Neural Representations
 
-This repository holds the code for the paper [*Steerable Anatomical Shape Synthesis with Implicit Neural Representations*]().
+[![paper](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2504.03313) | [![Data](https://zenodo.org/badge/DOI/10.5281/zenodo.15100852.svg)](https://doi.org/10.5281/zenodo.15100852)
+
+This repository holds the code for the paper [*Steerable Anatomical Shape Synthesis with Implicit Neural Representations*](https://arxiv.org/abs/2504.03313).
 In this work we train implicit neural representations of 3D thyroid glands, conditioned on a latent code consisting of a combination of fixed anatomical features and learned latent features.
 The resulting model can be used generatively by sampling random latent codes, and can be steered through the conditioning features.
 
@@ -12,7 +14,7 @@ The figure below shows an example application, where we edit the volume, isthmus
 
 :construction: Accessible when the upload is finalized
 
-Access the data used in the paper via [zenodo]().
+Access the data used in the paper via [zenodo](https://zenodo.org/records/15100852).
 
 # Running the code
 
@@ -101,8 +103,14 @@ python -m thyroidsynthesis.nn.plot /path/to/results
 
 If you use this code, please cite our arXiv paper:
 
-**TODO** Add citation once this is on arXiv
-
 ```
-citation
+@misc{dewilde2025steerableanatomicalshapesynthesis,
+      title={Steerable Anatomical Shape Synthesis with Implicit Neural Representations}, 
+      author={Bram de Wilde and Max T. Rietberg and Guillaume Lajoinie and Jelmer M. Wolterink},
+      year={2025},
+      eprint={2504.03313},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.03313}, 
+}
 ```
