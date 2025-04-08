@@ -12,8 +12,6 @@ The figure below shows an example application, where we edit the volume, isthmus
 
 # Data
 
-:construction: Accessible when the upload is finalized
-
 Access the data used in the paper via [zenodo](https://zenodo.org/records/15100852).
 
 # Running the code
@@ -31,6 +29,8 @@ And then install the repository as an editable package:
 conda activate thyroidsynthesis
 pip install --no-build-isolation --no-deps -e .
 ```
+
+If you run Windows, we recommend using WSL.
 
 ## Pre-sampling SDF values
 
